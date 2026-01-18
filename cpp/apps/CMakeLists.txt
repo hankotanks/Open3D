@@ -145,4 +145,4 @@ if (BUILD_GUI)
     open3d_add_app_gui(Open3DViewer Open3D Open3DViewer)
 endif()
 
-open3d_add_app_common(OfflineReconstruction OfflineReconstruction OfflineReconstruction)
+# open3d_add_app_common(OfflineReconstruction OfflineReconstruction OfflineReconstruction)
