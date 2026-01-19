@@ -1,3 +1,5 @@
+if(FALSE)
+
 add_subdirectory(ManuallyAlignPointCloud)
 
 macro(open3d_add_tool TOOL_NAME)
@@ -16,3 +18,5 @@ open3d_add_tool(GLInfo                  Open3D::3rdparty_opengl Open3D::3rdparty
 open3d_add_tool(ManuallyCropGeometry)
 open3d_add_tool(MergeMesh)
 open3d_add_tool(ViewGeometry)
+
+endif()
